@@ -2,16 +2,19 @@ import React from "react";
 
 const NoMatch = () => {
   return (
-      <div
-      style={{ height: 560, clear: "both", paddingTop: 120, textAlign: "center" }}
-    >
-      <h1>404 Page Not Found</h1>
-        <h1>
-          <span role="img" aria-label="Face With Rolling Eyes Emoji">
-            🙄
-          </span>
-        </h1>
-    </div>
+    <section className="my-5">
+      <h1 id="about">Who am I?</h1>
+      <img
+            src={photo}
+            alt='afdsf'
+            className="img-thumbnail mx-1"
+          />
+      <div className="my-2">
+        <p>
+        I am apart of the Vanderbilt Coding Bootcamp. I know javascipt, html, css, and use a MERN stack. I want to get a job as a software developer or web developer. I graduate from Oakwood University in 2023. I also know C++, Python, and C#.
+        </p>
+      </div>
+    </section>
   );
 };
 
